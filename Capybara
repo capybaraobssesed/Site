@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Capybaras - Amazing Animals</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            background: linear-gradient(to bottom, lightblue, lightgreen);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 10px;
+            background-color: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(5px);
+            border-bottom: 2px solid #ccc;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: darkblue;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: crimson;
+        }
+
+        .rainbow-text {
+            font-size: 2.5em;
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            animation: floatText 3s ease-in-out infinite;
+        }
+
+        @keyframes floatText {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+
+        main {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        .capy-emoji {
+            font-size: 3rem;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        button {
+            background: #ffcc70;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1em;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #ffa500;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.4);
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="capy-emoji">🦫</div>
+    <h1 class="rainbow-text">Explaining All About Capybaras</h1>
+    <nav>
+        <a href="#facts">Facts</a>
+        <a href="#habitat">Habitat</a>
+        <a href="#lifespan">Lifespan</a>
+    </nav>
+</header>
+
+<main>
+    <section id="facts">
+        <p>Capybaras are short-haired, brownish rodents with blunt snouts, short legs, small ears, and no tail. They are shy and often found in groups near lakes and rivers.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg/960px-Hydrochoeris_hydrochaeris_in_Brazil_in_Petr%C3%B3polis%2C_Rio_de_Janeiro%2C_Brazil_09.jpg" alt="Capybara sitting on grass">
+    </section>
+
+    <section id="size">
+        <p>Adult capybaras grow to 106–134 cm (3.48–4.40 ft) long, stand 50–62 cm (20–24 in) tall, and weigh 35–66 kg (77–146 lb). Females are usually slightly heavier than males.</p>
+    </section>
+
+    <section id="habitat">
+        <p>Capybaras are found in Panama, Colombia, Venezuela, Guyana, Peru, Brazil, Paraguay, Northeast Argentina, and Uruguay. They live near rivers, lakes, ponds, marshes, and swamps.</p>
+    </section>
+
+    <section id="lifespan">
+        <p>Baby capybaras are poor swimmers at first and stay on land under brush. They are vulnerable to predators like foxes and piranhas. Capybaras live 8–10 years in the wild and up to 12 in captivity.</p>
+    </section>
+
+    <div style="text-align:center; margin-top:30px;">
+        <a href="https://en.wikipedia.org/wiki/Capybara" target="_blank">
+            <button>Learn More About Capybaras</button>
+        </a>
+    </div>
+</main>
+
+<footer>
+    Made with ❤️ by a Capybara Fan | 🦫 Stay chill like a capybara!
+</footer>
+
+</body>
+</html>
